@@ -1,0 +1,31 @@
+.display-4{
+    font-family: "Times New Roman", Times, serif;
+}
+.lead {
+    font-family: "Times New Roman", Times, serif;
+}
+.display-5{
+    font-family: "Times New Roman", Times, serif;
+}
+.rounded-picture {
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

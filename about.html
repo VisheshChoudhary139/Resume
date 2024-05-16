@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Custom CSS for circular image */
+        .rounded-picture {
+            border-radius: 50%; /* Makes the image circular */
+            overflow: hidden; /* Ensures the image stays within the circular boundary */
+        }
+
+        /* Adjustments for feature icons */
+        .feature-icon {
+            width: 80px; /* Adjust as needed */
+            height: 80px; /* Adjust as needed */
+            border-radius: 50%; /* Makes the icon circular */
+            overflow: hidden; /* Ensures the icon stays within the circular boundary */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px; /* Adjust spacing as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="px-4 py-5 my-5 text-center">
+        <div class="rounded-picture">
+            <img class="d-block mx-auto mb-4" src="my photo.jpeg" alt="" width="200" height="200">
+        </div>
+        <h1 class="display-5 fw-bold text-body-emphasis">About Me</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">As a budding software engineer from the vibrant campus of KIIT, Bhubaneswar, I blend the
+            analytical rigor of technology with the creative spark of innovation. My academic journey is a
+            tapestry of collaborative projects, and cutting-edge research. With a mind keen on solving
+            algorithms, I am on a quest to transform challenges into digital solutions. Ready to code,
+            create, and conquer the tech world!</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="index.html">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Home</button>
+                </a>
+                <a href="contact.html">
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Columns with icons</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div class="feature-icon text-bg-primary bg-gradient fs-2 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" fill="currentColor" class="bi bi-bug" viewBox="0 0 16 16">
+                        <path d="M4.355.522a.5.5 0 0 1 .623.333l.291.956A5 5 0 0 1 8 1c1.007 0 1.946.298 2.731.811l.29-.956a.5.5 0 1 1 .957.29l-.41 1.352A5 5 0 0 1 13 6h.5a.5.5 0 0 0 .5-.5V5a.5.5 0 0 1 1 0v.5A1.5 1.5 0 0 1 13.5 7H13v1h1.5a.5.5 0 0 1 0 1H13v1h.5a1.5 1.5 0 0 1 1.5 1.5v.5a.5.5 0 1 1-1 0v-.5a.5.5 0 0 0-.5-.5H13a5 5 0 0 1-10 0h-.5a.5.5 0 0 0-.5.5v.5a.5.5 0 1 1-1 0v-.5A1.5 1.5 0 0 1 2.5 10H3V9H1.5a.5.5 0 0 1 0-1H3V7h-.5A1.5 1.5 0 0 1 1 5.5V5a.5.5 0 0 1 1 0v.5a.5.5 0 0 0 .5.5H3c0-1.364.547-2.601 1.432-3.503l-.41-1.352a.5.5 0 0 1 .333-.623M4 7v4a4 4 0 0 0 3.5 3.97V7zm4.5 0v7.97A4 4 0 0 0 12 11V7zM12 6a4 4 0 0 0-1.334-2.982A3.98 3.98 0 0 0 8 2a3.98 3.98 0 0 0-2.667 1.018A4 4 0 0 0 4 6z"></path>
+                      </svg>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Tech Enthusiast</h3>
+                <p>Driven by an insatiable curiosity for the latest tech trends, I’m constantly exploring innovative solutions that push the boundaries of what’s possible.</p>
+                <a href="#" class="icon-link">
+                    <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon text-bg-primary bg-gradient fs-2 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50"  fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+                        <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z"></path>
+                        <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"></path>
+                      </svg>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Explorer</h3>
+                <p>Charting unknown territories and embracing the thrill of discovery, I venture where curiosity leads and return with stories that inspire.</p>
+                <a href="#" class="icon-link">
+                    <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon text-bg-primary bg-gradient fs-2 mb-3">
+                    <div class="icon-demo mb-4 border rounded-3 d-flex align-items-center justify-content-center p-3 py-6" style="font-size: 10em" role="img" aria-label="Mic - large preview">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="50" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+              <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"></path>
+              <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3"></path>
+            </svg>
+                      </div>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Eloquent</h3>
+                <p>With the power of eloquence, I navigate the tides of debate and dialogue, leaving a lasting impact with my well-chosen words and confident delivery.</p>
+                <a href="#" class="icon-link">
+                    <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Vishesh Choudhary, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <div class="icon-demo mb-4 border rounded-3 d-flex align-items-center justify-content-center p-3 py-6" style="font-size: 10em" role="img" aria-label="Instagram - large preview">
+                <a href="https://www.instagram.com/visheshchoudhary149/" class="text-body-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                    </svg>
+                </a>
+            </div>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/visheshchoudhary149/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <div class="icon-demo mb-4 border rounded-3 d-flex align-items-center justify-content-center p-3 py-6" style="font-size: 10em" role="img" aria-label="LinkedIn - large preview">
+                <a href="https://www.linkedin.com/in/vishesh-choudhary-544951251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-body-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"></path>
+                    </svg>
+                </a>
+            </div>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/vishesh-choudhary-544951251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"></use></svg></a></li>
+        </ul>
+    </footer>
+    
+    
+</body>
+</html>
